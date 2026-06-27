@@ -16,10 +16,10 @@ nextEl: '.swiper-button-next',
 prevEl: '.swiper-button-prev',
 },
 
-// autoplay: {
-// delay: 1700,
-// pauseOnMouseEnter: true,
-// },
+autoplay: {
+delay: 1700,
+pauseOnMouseEnter: true,
+},
 });
 
 });

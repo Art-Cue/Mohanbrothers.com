@@ -39,7 +39,13 @@ img{
     height: auto;
     object-fit: cover;
 }
-
+.mb-ForSecton{
+    margin-block: 7.5rem;
+}
+.main-heading {
+    font-family: var(--secondary-font) !important;
+    font-size: 3.5rem;
+}
 /*
 =====================
 Variable Define
@@ -52,7 +58,7 @@ Variable Define
 --white-color: 255 255 255;
 --black-color: 0 0 0;
 --primary-font: 'Quicksand', sans-serif;
---secondary-font: font-family: "Paytone One", sans-serif;
+--secondary-font: "Paytone One", sans-serif;
 }
 html {
 scroll-behavior: smooth;
@@ -65,13 +71,13 @@ custom scrollbar
 */
 
 ::-webkit-scrollbar {
-width: 1rem;
+width: .5rem;
 }
 ::-webkit-scrollbar-track {
-background: var(--secondary-color)
+background: rgb(var(--primary-main-color) / .25)
 }
 ::-webkit-scrollbar-thumb {
-background: var(--primary-color)
+background: rgba(var(--third-main-color))
 }
 
 /* ------- Navbar CSS Starts------- */
@@ -118,3 +124,51 @@ background: var(--primary-color)
     filter: brightness(0) invert(1);
 }
 /* ------- Navbar CSS Ends------- */
+
+
+/* ------- Quotes Section Starts------- */
+/* .quotes-section {
+
+} */
+.whatmediasays-container p {
+    position: relative;
+    padding-bottom: 1rem;
+}
+.whatmediasays-container p::after {
+    position: absolute;
+    content: '';
+    left: 50%;
+    transform: translateX(-50%);
+    top: 50px;
+    background: rgb(var(--primary-main-color));
+    width: 10rem;
+    height: .2rem;
+    z-index: 999;
+}
+.quotes-section .quotes {
+    text-align: center;
+    background: rgb(var(--third-main-color));
+    padding: 2.5rem;
+    height: 17.5rem;
+    position: relative;
+}
+.quotes-section .quotes img {
+    width: 2rem;
+    margin-bottom: 1rem;
+}
+.quotes-section .quotes .quotes-para {
+    color: rgb(var(--white-color));
+    font-weight: 900;
+}
+.quotes-section .quotes .quotes-heading5 {
+    color: rgb(var(--primary-main-color));
+    font-weight: 900;
+}
+.quotes-section .quotes .quotes-heading5 {
+    position: absolute;
+    content: '';
+    bottom: 1rem;
+    left: 50%;
+    transform: translateX(-50%);
+}
+/* ------- Quotes Section Ends------- */
