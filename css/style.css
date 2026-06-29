@@ -40,11 +40,11 @@ img{
     object-fit: cover;
 }
 .mb-ForSecton{
-    margin-block: 7.5rem;
+    margin-block: 5.5rem;
 }
 .main-heading {
     font-family: var(--secondary-font) !important;
-    font-size: 3.5rem;
+    font-size: 3rem;
 }
 /*
 =====================
@@ -126,7 +126,7 @@ background: rgba(var(--third-main-color))
 /* ------- Navbar CSS Ends------- */
 
 
-/* ------- Quotes Section Starts------- */
+/* ------- What media says Quotes Section Starts------- */
 /* .quotes-section {
 
 } */
@@ -139,7 +139,7 @@ background: rgba(var(--third-main-color))
     content: '';
     left: 50%;
     transform: translateX(-50%);
-    top: 50px;
+    top: 75px;
     background: rgb(var(--primary-main-color));
     width: 10rem;
     height: .2rem;
@@ -171,4 +171,4 @@ background: rgba(var(--third-main-color))
     left: 50%;
     transform: translateX(-50%);
 }
-/* ------- Quotes Section Ends------- */
+/* ------- What media says Quotes Section Ends------- */

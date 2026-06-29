@@ -1,4 +1,4 @@
-/* navbar */
+/* Navbar Starts Here */
 
 /* @media screen and (max-width:1220px){
     .navbar-nav .nav-link {
@@ -72,3 +72,27 @@
     margin-top: 6rem;    
     }
 }
+/* Navbar End Here */
+
+
+
+
+/* What Media Says (Quotes) Stars Here  */
+    @media screen and (max-width: 768px){
+    .main-heading {
+    font-family: var(--secondary-font) !important;
+    font-size: 2.5rem;
+}
+    .whatmediasays-container p::after {
+    top: 100px;
+ 
+}
+}
+    @media screen and (max-width: 768px){
+    .main-heading {
+    font-family: var(--secondary-font) !important;
+    font-size: 1.75rem;
+}
+}
+    
+/* What Media Says (Quotes) Stars Here  */
