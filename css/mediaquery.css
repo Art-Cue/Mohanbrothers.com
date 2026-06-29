@@ -71,7 +71,11 @@
     .navbar-collapse{
     margin-top: 6rem;    
     }
+    .mb-ForSecton{
+    margin-block: 2.5rem;
 }
+}
+
 /* Navbar End Here */
 
 
@@ -83,10 +87,7 @@
     font-family: var(--secondary-font) !important;
     font-size: 2.5rem;
 }
-    .whatmediasays-container p::after {
-    top: 100px;
- 
-}
+/* Heading1 Font */
 }
     @media screen and (max-width: 768px){
     .main-heading {

@@ -139,7 +139,7 @@ background: rgba(var(--third-main-color))
     content: '';
     left: 50%;
     transform: translateX(-50%);
-    top: 75px;
+    top: 115%;
     background: rgb(var(--primary-main-color));
     width: 10rem;
     height: .2rem;
